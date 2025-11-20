@@ -86,7 +86,7 @@ function createPost(author, content) {
     };
 
     // この下の行を消して、投稿処理を記述
-    console.log('ボタンが押されました')
+    postsRef.push(postData)
     // この上の行を消して投稿処理を記述
     // 行末に 「;」 を付けないこと
     .then(() => {
